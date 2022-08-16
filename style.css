@@ -48,6 +48,12 @@ nav {
     text-decoration: none;
 }
 
+.nav-links a:hover {
+    background-color: #94918A;
+    padding: 10px;
+    
+}
+
 .button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -160,7 +166,7 @@ nav {
 }
 
 .banner {
-    margin-bottom: 500px;
+    margin-bottom: 100px;
     background-color: #94918A;
     height: 280px;
     display: flex;
@@ -190,3 +196,26 @@ nav {
     color: #94918A;
     
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: #94918A;
+    font-size: 18px;
+}
+
